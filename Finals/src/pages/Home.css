@@ -1,0 +1,39 @@
+/*./pages/Home.css*/
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+button {
+    align-self: flex-end;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #0056b3;
+  }
+  /* Home.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование по горизонтали */
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 40px;
+  width: 100%; /* Убедитесь, что категория занимает всю ширину */
+}
+
+.sushi-list {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку */
+  justify-content: center; /* Центрирование элементов по горизонтали */
+  gap: 20px; /* Расстояние между элементами */
+}

@@ -1,0 +1,27 @@
+/*./components/Footer.css*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  footer .icon {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .firstrow {
+    margin: 0;
+  }
+  

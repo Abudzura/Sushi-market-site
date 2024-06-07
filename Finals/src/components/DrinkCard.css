@@ -1,0 +1,68 @@
+/*./components/DrinkCard.css*/
+.drink-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drink-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .drink-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .drink-details {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .drink-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .drink-type {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .drink-price-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .drink-price {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  .add-to-cart-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3;
+  }
+  

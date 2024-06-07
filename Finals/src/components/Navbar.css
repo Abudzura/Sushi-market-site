@@ -1,0 +1,50 @@
+/* ./components/Navbar.css */
+/* ./components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links li {
+  margin: 0 1rem;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sakura {
+  height: 80px;
+  width: 80px;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  right: 350px;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 24px; /* Adjust the size as needed */
+  height: auto;
+  margin-left: 8px; /* Space between the text and the icon */
+}
